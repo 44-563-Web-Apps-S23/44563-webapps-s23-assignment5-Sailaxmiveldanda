@@ -16,29 +16,22 @@
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="plants.html">Intresting Plants</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plantId" aria-controls="plantId" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+      <div class="collapse navbar-collapse" id="plantId">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-link active"><a href="basic.html">Basic</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="advanced.html">Advanced</a>
+            <li class="nav-link active"><a href="advanced.html">Advanced</a>
           </li>
-          <li class="nav-item dropdown">
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="basic.html">Basic</a></li>
-              <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
-            </ul>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <body>
-    <div class="container">
+  <div class="container">
     <h1> "Plants by" Sailaxmi Veldanda</h1>
     <div class="row">
         <div class="col-sm-2">V</div>
@@ -123,22 +116,29 @@
         </tr>
       </tbody>
     </table>
-  <h3>Buttons:</h3>
+    <label for="floatingSelectGrid">Buttons</label><br/>
+      <button type="button" class="btn">V</button>
+      <button type="button" class="btn">E</button>
+      <button type="button" class="btn">L</button>
+      <button type="button" class="btn">D</button>
+      <button type="button" class="btn">A</button>
+      <button type="button" class="btn">N</button><br/>
+  <label for="floatingSelectGrid">Buttons Group</label><br/>
   <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button Letters">
     <div class="btn-group me-2" role="group" aria-label="Buttons with Letters">
       <button type="button" class="btn btn-success">V</button>
       <button type="button" class="btn btn-success">E</button>
       <button type="button" class="btn btn-success">L</button>
-      <button type="button" class="btn alert alert-warning">D</button>
-      <button type="button" class="btn alert alert-warning">A</button>
+      <button type="button" class="btn btn-warning">D</button>
+      <button type="button" class="btn btn-warning">A</button>
       <button type="button" class="btn btn-danger">N</button>
     </div>
   </div>
   <br>
-  <h3> Dropdown:</h3>
+  <label for="floatingSelectGrid">Dropdown</label><br/>
   <div class="btn-group" role="group">
       <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Initial Letter
+        Dropdown
       </button>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="basic.html">Basic HTML Page</a></li>
@@ -147,7 +147,7 @@
   </div>
   <br>
   <br>
-  <h3>Forms:</h3>
+  <label for="floatingSelectGrid">Form</label><br/>
   <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -172,7 +172,7 @@
       <img src="Images/valerian.jpg" class="card-img-top" alt="Valerian">
       <div class="card-body">
         <h5 class="card-title">Valerian</h5>
-        <p class="card-text">Valerian is a perennial flowering plant native to Europe and Asia.</p>
+        <p class="card-text">Valerian is a perennial flowering plant native to Europe and Asia. In the summer when the mature plant may have a height of 1.5 metres, it bears sweetly scented pink or white flowers that attract many fly species </p>
         <a href="Images/valerian.jpg" class="btn btn-primary">Valerian Image</a>
       </div>
     </div>
@@ -182,7 +182,7 @@
       <img src="Images/Easter lilly.jpg" class="card-img-top" alt="Easter Lilly">
         <div class="card-body">
           <h5 class="card-title">Easter Lilly</h5>
-          <p class="card-text">Lilium longiflorum, often called the Easter lily, is a plant endemic to both Taiwan and Ryukyu Islands.</p>
+          <p class="card-text">Lilium longiflorum, often called the Easter lily, is a plant endemic to both Taiwan and Ryukyu Islands. Lilium formosanum, a closely related species from Taiwan, has been treated as a variety of Easter lily in the past.</p>
           <a href="Images/Easter lilly.jpg" class="btn btn-primary">Easter Lilly Image</a>
         </div>
       </div>
